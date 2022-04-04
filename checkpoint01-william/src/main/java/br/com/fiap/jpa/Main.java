@@ -22,7 +22,7 @@ public class Main {
 		livroService.listar().forEach(System.out::println);
 		
 		livroService.remover(2L);
-		livroService.atualizar(livro1 = new Livro("Bozzato", "Carvalho", "Aurelia", LocalDate.of(2016, 1, 7)));
-		livroService.atualizar(livro3 = new Livro("William",  "Carvalho", "Aurelia", LocalDate.of(2016, 1, 7)));
+		livroService.atualizar(livro1 = new Livro("Bozzato", "Carvalho", "Aurelia", LocalDate.of(2019, 1, 7)));
+		livroService.atualizar(livro3 = new Livro("William",  "Carvalho", "Aurelia", LocalDate.of(2019, 1, 7)));
 	}
 }
